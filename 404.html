@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>hello, world!</title>
+</head>
+<body>
+  <div id="container"></div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>
+    $.get(location.pathname.replace(/\/$/, '/readme.md').replace(/\.html$/, '.md'), function (data) {
+      $('#container').html(data)
+    })
+  </script>
+</body>
+</html>
