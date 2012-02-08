@@ -1,6 +1,6 @@
 #Blogging Like A Minimalist Hacker
 
-[Minimalist.js](http://github.com/yuest/minimalist/) is the blog engine behind [yue.st](http://yue.st) to let me blog like a minimalist.  I write the core feature of it in a minimal time so I can use it ASAP and I believe it will evolve slowly as I feel some feature **MUST** be added.
+[Minimalist.js](http://github.com/yuest/minimalist/) is the blog engine behind [yue.st](http://yue.st) to let me blog like a minimalist.  I write the core feature of it in a minimal time so I can use it ASAP and I believe it will evolve slowly as I feel some feature **MUST** be implemented :)
 
 ##Usage
 
@@ -16,7 +16,7 @@ Use a 404.html containing a `script` tag to use minimalist.js and a `article#fro
         <article id="from-markdown"></article>
     </body>
 
-Then write your artile in markdown and save it with `.md` extension in your username.github.com repository.  If your save it in */blog/2012-02-08.md* in your repo, you cloud visit it at http://username.github.com/blog/2012-02-08.html - just replace `.md` to `.html`.
+Then write your artile in markdown and save it with `.md` extension in your *username.github.com* repository.  If your save it in */blog/2012-02-08.md* in your repo, you cloud visit it at *http://username.github.com/blog/2012-02-08.html* - just replace `.md` to `.html`.
 
 In your markdown source files, your should use **relative path** to link between two articles. For example `[yestoday](./2012-02-07.md)` in */blog/2012-02-08.md* will lead you to */blog/2012-02-07.md*.  you cloud also use absolute path like `[yestoday](/blog/2012-02-07.md)`, but the link will broke when you visit your markdown source file on github.com, use relative path will work on both.
 
